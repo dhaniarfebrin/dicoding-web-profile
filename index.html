@@ -4,7 +4,100 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dhaniar Febrin</title>
-    <link rel="stylesheet" href="./style.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        min-height: 100vh;
+      }
+
+      header {
+        width: 100vw;
+      }
+
+      main {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .header-text {
+        padding-block: 20px;
+        color: white;
+        background-color: rgb(0, 179, 255);
+        text-align: center;
+        width: 100vw;
+      }
+
+      .jumbotron {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+        background-color: whitesmoke;
+      }
+
+      .jumbotron > .image-profile {
+        width: 220px;
+        height: 220px;
+        border-radius: 9999px;
+        overflow: hidden;
+        margin-bottom: 0.5rem;
+      }
+
+      .jumbotron > .image-profile > img {
+        width: 100%;
+      }
+
+      .jumbotron > .profile-text {
+        text-align: center;
+      }
+
+      section.detail {
+        margin-inline: auto;
+        width: 60vw;
+        display: flex;
+        padding-block: 3rem;
+      }
+
+      section.detail > .story {
+        width: 50%;
+        padding-inline: 1rem;
+      }
+
+      section.detail > .information {
+        display: flex;
+        flex-direction: column;
+        padding-inline: 1rem;
+        width: 50%;
+      }
+
+      section.detail > .information > span {
+        padding-block: 0.6rem;
+      }
+
+      footer {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-block: 1rem;
+        bottom: 0;
+      }
+
+      footer > div {
+        margin-left: 1rem;
+      }
+    </style>
   </head>
   <body>
     <header>
